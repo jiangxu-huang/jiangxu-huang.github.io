@@ -8,7 +8,7 @@ const port = Number(process.env.HOMEPAGE_PORT || 4173);
 const profile = JSON.parse(await readFile(path.join(root, 'homepage/profile.json'), 'utf8'));
 const sitePath = new URL(profile.siteUrl).pathname.replace(/\/$/, '');
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.xml': 'application/xml; charset=utf-8', '.txt': 'text/plain; charset=utf-8' };
-const allowed = new Set(['/index.html', '/about/index.html', '/publications/index.html', '/sitemap.xml', '/robots.txt', '/assets/homepage/style.css', '/assets/homepage/main.js']);
+const allowed = new Set(['/index.html', '/about/index.html', '/publications/index.html', '/huangjx.github.io/index.html', '/sitemap.xml', '/robots.txt', '/assets/homepage/style.css', '/assets/homepage/main.js']);
 const server = createServer(async (request, response) => {
   try {
     let pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);

@@ -4,7 +4,7 @@
   "github": "https://github.com/jiangxu-huang",
   "scholar": "https://scholar.google.com/citations?user=HkEOyIwAAAAJ",
   "researchgate": "https://www.researchgate.net/profile/Jiangxu-Huang",
-  "siteUrl": "https://jiangxu-huang.github.io/huangjx.github.io",
+  "siteUrl": "https://jiangxu-huang.github.io",
   "affiliation": {
     "en": "Huazhong University of Science and Technology",
     "zh": "华中科技大学"
@@ -20,8 +20,8 @@
       "zh": "我是华中科技大学数学与统计学院复杂系统仿真研究中心的博士研究生，主要采用介观数值方法研究复杂流体流动与界面现象。"
     },
     {
-      "en": "My research brings together phase-field modeling and the lattice Boltzmann method, spanning multiphase flows, solid–liquid phase change, active particles, and flow stability. I also undertake joint doctoral training at the National University of Singapore with support from the China Scholarship Council (CSC).",
-      "zh": "我的研究结合相场建模与格子 Boltzmann 方法，涉及多相流、固液相变、活性颗粒与流动稳定性。目前在国家留学基金管理委员会（CSC）支持下，赴新加坡国立大学开展联合培养。"
+      "en": "My research focuses on gas–liquid–solid multiphase flows and phase-change phenomena using diffuse-interface models and lattice Boltzmann methods. My interests include droplet and bubble dynamics, particularly droplet impact; active-particle motion (squirmers and phoretic particles); surfactant-mediated interfacial flows; and phase transitions, including boiling, condensation, evaporation, and droplet freezing.",
+      "zh": "我的研究聚焦气–液–固多相流与相变现象，主要采用弥散界面模型和格子 Boltzmann 方法。研究兴趣包括液滴与气泡动力学（尤其是液滴撞击）、活性颗粒运动（squirmers 和 phoretic particles）、表面活性剂调控的界面流动，以及沸腾、凝结、蒸发和液滴冻结等相变过程。"
     }
   ],
   "research": [

@@ -56,7 +56,7 @@ if (process.argv.includes('--check')) {
   await writeFile(path.join(root, 'index.html'), html, 'utf8');
   await writeFile(path.join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${profile.siteUrl}/</loc></url></urlset>\n`, 'utf8');
   await writeFile(path.join(root, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${profile.siteUrl}/sitemap.xml\n`, 'utf8');
-  for (const [route, anchor] of [['about', 'home'], ['publications', 'publications']]) {
+  for (const [route, anchor] of [['about', 'home'], ['publications', 'publications'], ['huangjx.github.io', 'home']]) {
     await mkdir(path.join(root, route), { recursive: true });
     const sitePath = new URL(profile.siteUrl).pathname.replace(/\/$/, '');
     await writeFile(path.join(root, route, 'index.html'), `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jiangxu Huang</title><link rel="canonical" href="${profile.siteUrl}/"><meta http-equiv="refresh" content="0;url=${sitePath}/#${anchor}"><p><a href="${sitePath}/#${anchor}">Continue to Jiangxu Huang’s homepage / 进入个人主页</a></p></html>\n`, 'utf8');

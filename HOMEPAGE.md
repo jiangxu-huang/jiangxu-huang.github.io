@@ -19,30 +19,30 @@ node scripts/build-homepage.mjs --check
 node scripts/preview-homepage.mjs
 ```
 
-预览地址：<http://127.0.0.1:4173/huangjx.github.io/>。按 Ctrl+C 结束预览。构建生成的 `index.html` 需要与数据文件一起提交。生成后的页面可直接打开；HTTP 预览包含正式站点的项目子路径，更接近实际部署环境。
+预览地址：<http://127.0.0.1:4173/>。按 Ctrl+C 结束预览。构建生成的 `index.html` 需要与数据文件一起提交。生成后的页面可直接打开；HTTP 预览更接近实际部署环境。
 
 `?lang=zh` 与 `?lang=en` 可指定初始语言；访客切换语言后会在浏览器本地记住偏好。未启用 JavaScript 时仍可阅读英文简介、全部论文并打开联系方式。
 
 ## GitHub Pages
 
-当前仓库地址：<https://github.com/jiangxu-huang/huangjx.github.io>。原先提供的仓库地址已由 GitHub 重定向到此仓库。
+当前仓库地址：<https://github.com/jiangxu-huang/jiangxu-huang.github.io>。
 
 现有分支为 `acadaemic`（沿用原仓库拼写）。在 GitHub 仓库 **Settings → Pages → Build and deployment** 选择 **Deploy from a branch**、分支 **acadaemic**、目录 **/ (root)**，保存。若已经使用这一设置，无需修改。
 
-提交并推送到该分支后，GitHub Pages 会发布根目录的 `index.html`。正式地址为 <https://jiangxu-huang.github.io/huangjx.github.io/>。
+提交并推送到该分支后，GitHub Pages 会发布根目录的 `index.html`。正式地址为 <https://jiangxu-huang.github.io/>。
 
-这是项目型 GitHub Pages，网址包含 `/huangjx.github.io/` 子路径。发布源的 **/ (root)** 指仓库根目录，不是域名根路径。`_config.yml` 应使用 `url: "https://jiangxu-huang.github.io"`、`baseurl: "/huangjx.github.io"` 和 `repository: "jiangxu-huang/huangjx.github.io"`；`homepage/profile.json` 的 `siteUrl` 应包含完整项目网址。更新这些设置后需重新生成首页，确保规范网址、站点地图与旧路由跳转使用同一子路径。
+这是账号型 GitHub Pages，仓库名与账号名对应，主页直接位于域名根路径。`_config.yml` 应使用 `url: "https://jiangxu-huang.github.io"`、`baseurl: ""` 和 `repository: "jiangxu-huang/jiangxu-huang.github.io"`；`homepage/profile.json` 的 `siteUrl` 应为 `https://jiangxu-huang.github.io`。更新这些设置后需重新生成首页，确保规范网址、站点地图与旧路由跳转使用域名根路径。
 
 本地预览通过不等于远程部署成功，仍需查看 GitHub Pages 构建结果及线上页面。
 
 发布设置依据：[GitHub 官方 Pages 文档](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
 
-原 Academic Pages 模板源码仍保留在仓库；新的 `_config.yml` 不再输出示例论文、博客、教学、报告和虚构简历。MIT 模板许可证保留。项目网址下的 `/huangjx.github.io/about/` 与 `/huangjx.github.io/publications/` 跳转至新主页相应段落。
+原 Academic Pages 模板源码仍保留在仓库；新的 `_config.yml` 不再输出示例论文、博客、教学、报告和虚构简历。MIT 模板许可证保留。`/about/` 与 `/publications/` 跳转至新主页相应段落；原项目地址 `/huangjx.github.io/` 跳转至新主页。
 
 ## 内容来源与待完善
 
-简介、博士身份、HUST、NUS 联培、CSC 支持、公开邮箱与 Google Scholar 来自原仓库的 `_config.yml` 与 `_pages/about.md`。研究成果核对用户提供的 [ResearchGate](https://www.researchgate.net/profile/Jiangxu-Huang)，并优先使用期刊、DOI 与 arXiv 页面。具体来源在每条论文的 `source` 字段中。
+简介中的博士身份、HUST、公开邮箱与 Google Scholar 来自原仓库的 `_config.yml` 与 `_pages/about.md`。研究介绍依据本人提供的英文文本更新，并同步中文翻译。研究成果核对用户提供的 [ResearchGate](https://www.researchgate.net/profile/Jiangxu-Huang)，并优先使用期刊、DOI 与 arXiv 页面。具体来源在每条论文的 `source` 字段中。
 
 页面仅使用文字，不含头像、插图、装饰图或 AI 生成图片。News 列出已核实的论文发表与预印本公开记录，不包含未经确认的消息。
 
-后续可在简介中补充经本人确认的中文姓名、最新职位、教育时间及照片。学院名称使用 2026 年正式论文列出的 School of Mathematics and Statistics；个人职位及联培信息沿用原仓库，后续如有变化请更新。
+后续可在简介中补充经本人确认的中文姓名、最新职位和教育时间。学院名称使用 2026 年正式论文列出的 School of Mathematics and Statistics；博士身份沿用原仓库，后续如有变化请更新。
