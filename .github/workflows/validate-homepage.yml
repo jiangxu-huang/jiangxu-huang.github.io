@@ -1,0 +1,19 @@
+name: Validate personal homepage
+on:
+  push:
+    branches: [acadaemic]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check publication data and generated homepage
+        run: node scripts/build-homepage.mjs --check
+      - name: Check browser script syntax
+        run: node --check assets/homepage/main.js

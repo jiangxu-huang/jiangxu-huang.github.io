@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Jiangxu Huang · Academic Homepage</title>
+  <meta name="description" content="Jiangxu Huang's academic homepage. Multiphase flow, phase change, active particles, phase-field modeling, and the lattice Boltzmann method.">
+  <link rel="canonical" href="{{SITE_URL}}/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jiangxu Huang · Academic Homepage">
+  <meta property="og:description" content="Research, publications, and academic news.">
+  <meta property="og:url" content="{{SITE_URL}}/">
+  <link rel="stylesheet" href="./assets/homepage/style.css">
+  <script src="./assets/homepage/main.js" defer></script>
+  <script type="application/ld+json">{{PERSON_JSON}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">{{T:skip|Skip to content|跳至正文}}</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="#home">Jianxu's website</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home" aria-current="location">Home</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+      </nav>
+      <div class="header-actions">
+        <div class="language-switch" role="group" aria-label="Language / 语言">
+          <button type="button" data-set-language="en" aria-pressed="true" aria-label="Read in English">EN</button><span aria-hidden="true">/</span><button type="button" data-set-language="zh-CN" aria-pressed="false" aria-label="切换为中文">中文</button>
+        </div>
+        <button class="menu-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+    <nav class="mobile-nav container" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#home">Home</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#news">News</a>
+    </nav>
+  </header>
+  <main id="main" class="container">
+    <section class="home-section" id="home" aria-labelledby="home-title">
+      <span id="about"></span>
+      <div class="profile-heading">
+        <h1 id="home-title">Jiangxu Huang</h1>
+        <p class="role-line">{{ROLE}}</p>
+        <p class="affiliation-line">{{AFFILIATION}}</p>
+      </div>
+      <div class="profile-links">
+        <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+        <a href="{{SCHOLAR}}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="{{RESEARCHGATE}}" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+        <a href="{{GITHUB}}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <div class="biography">{{BIOGRAPHY}}</div>
+    </section>
+    <section class="section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">{{T:research-title|Research|研究方向}}</h2></div>
+      <div class="research-list">{{RESEARCH}}</div>
+      <p class="methods-note">{{T:methods|Methods: phase-field modeling, lattice Boltzmann methods, and mesoscopic numerical simulation.|研究方法：相场建模、格子 Boltzmann 方法与介观数值模拟。}}</p>
+    </section>
+    <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">{{T:publications-title|Publications|学术论文}}</h2><a href="{{SCHOLAR}}" target="_blank" rel="noopener noreferrer">Google Scholar</a></div>
+      <div class="publication-tools" hidden>
+        <div class="publication-filters" role="group" aria-label="Publication type / 论文类别"><button type="button" data-filter="all" aria-pressed="true">{{T:filter-all|All|全部}}</button><button type="button" data-filter="journal" aria-pressed="false">{{T:filter-journal|Journal articles|期刊论文}}</button><button type="button" data-filter="preprint" aria-pressed="false">{{T:filter-preprint|Preprints|预印本}}</button></div>
+        <label class="publication-search"><span class="sr-only">{{T:search-label|Search publications|搜索论文}}</span><input type="search" id="publication-search" placeholder="Search publications…" autocomplete="off" aria-label="Search publications / 搜索论文"></label>
+      </div>
+      <p class="publication-count" aria-live="polite" id="publication-count" hidden></p>
+      <div class="publication-list">{{PUBLICATIONS}}</div>
+      <p class="empty-state" id="no-publications" hidden>{{T:no-results|No publications match your search.|没有找到匹配的论文。}}</p>
+    </section>
+    <section class="section news-section" id="news" aria-labelledby="news-title">
+      <div class="section-heading"><h2 id="news-title">{{T:news-title|News|学术动态}}</h2></div>
+      <div class="news-list">{{NEWS}}</div>
+    </section>
+  </main>
+  <footer class="container site-footer"><p>© <span id="current-year">2026</span> Jiangxu Huang</p><div class="footer-links"><a href="mailto:{{EMAIL}}">{{T:email|Email|邮箱}}</a><a class="back-top" href="#home">{{T:back-top|Back to top|回到顶部}}</a></div></footer>
+</body>
+</html>

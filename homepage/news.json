@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-10",
+    "label": { "en": "Oct 2026", "zh": "2026年10月" },
+    "prefix": { "en": "New publication in Physical Review Fluids: ", "zh": "论文发表于 Physical Review Fluids：" },
+    "publicationDoi": "10.1103/yght-hqhv"
+  },
+  {
+    "date": "2026-10",
+    "label": { "en": "Oct 2026", "zh": "2026年10月" },
+    "prefix": { "en": "New publication in Journal of Computational Physics: ", "zh": "论文发表于 Journal of Computational Physics：" },
+    "publicationDoi": "10.1016/j.jcp.2026.115037"
+  },
+  {
+    "date": "2026-09",
+    "label": { "en": "Sep 2026", "zh": "2026年9月" },
+    "prefix": { "en": "A new preprint is available on arXiv: ", "zh": "预印本已在 arXiv 公开：" },
+    "publicationDoi": "10.48550/arXiv.2609.26332"
+  }
+]

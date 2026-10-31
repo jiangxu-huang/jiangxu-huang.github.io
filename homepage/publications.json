@@ -1,0 +1,196 @@
+[
+  {
+    "title": "Diffuse-interface model for N-phase flows with liquid-solid phase change",
+    "authors": ["Jiangxu Huang", "Chengjie Zhan", "Zhenhua Chai", "Changsheng Huang", "Xi Liu"],
+    "year": 2026,
+    "venue": "Physical Review Fluids 11(10), 104301",
+    "type": "journal",
+    "doi": "10.1103/yght-hqhv",
+    "url": "https://doi.org/10.1103/yght-hqhv",
+    "source": "https://journals.aps.org/prfluids/abstract/10.1103/yght-hqhv"
+  },
+  {
+    "title": "A diffuse-interface method for the containerless freezing of three-phase flows in complex geometries",
+    "authors": ["Jiangxu Huang", "Chengjie Zhan", "Zhenhua Chai", "Changsheng Huang"],
+    "year": 2026,
+    "venue": "Journal of Computational Physics 562, 115037",
+    "type": "journal",
+    "doi": "10.1016/j.jcp.2026.115037",
+    "url": "https://doi.org/10.1016/j.jcp.2026.115037",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0021999126003906"
+  },
+  {
+    "title": "Diffuse-interface modeling and simulation of the containerless freezing of binary fluids with the Marangoni effect",
+    "authors": ["Jiangxu Huang", "Zhenhua Chai", "Xi Liu", "Changsheng Huang"],
+    "year": 2026,
+    "venue": "Physica D: Nonlinear Phenomena 492, 135222",
+    "type": "journal",
+    "doi": "10.1016/j.physd.2026.135222",
+    "url": "https://doi.org/10.1016/j.physd.2026.135222",
+    "source": "https://www.sciencedirect.com/science/article/pii/S016727892600120X"
+  },
+  {
+    "title": "Pore scale study of gravity-driven non-isothermal fluid displacement in disordered porous media",
+    "authors": ["Juanyong Wang", "Lei Wang", "Jiangxu Huang"],
+    "year": 2026,
+    "venue": "Journal of Hydrology 664, Part B, 134470",
+    "type": "journal",
+    "doi": "10.1016/j.jhydrol.2025.134470",
+    "url": "https://doi.org/10.1016/j.jhydrol.2025.134470",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0022169425018104",
+    "notes": "Crossref API independently verified published and published-print date-parts [2026, 1], volume 664 and article 134470. ResearchGate lists the earlier online date October 2025. Use the official issue year 2026.",
+    "dateSource": "https://api.crossref.org/works/10.1016%2Fj.jhydrol.2025.134470"
+  },
+  {
+    "title": "A thermodynamically consistent and conservative phase-field model for surfactant contact line dynamics with solid adsorption",
+    "authors": ["Jiangxu Huang", "Zhenhua Chai", "Xi Liu", "Changsheng Huang"],
+    "year": 2026,
+    "venue": "arXiv:2609.26332",
+    "type": "preprint",
+    "doi": "10.48550/arXiv.2609.26332",
+    "url": "https://arxiv.org/abs/2609.26332",
+    "source": "https://arxiv.org/abs/2609.26332"
+  },
+  {
+    "title": "Phase-field lattice Boltzmann method for two-phase electrohydrodynamic flows induced by Onsager-Wien effect",
+    "authors": ["Mingzhen Zheng", "Lei Wang", "Fang Xiong", "Jiangxu Huang", "Kang Luo"],
+    "year": 2025,
+    "venue": "Physics of Fluids 37(9), 093340",
+    "type": "journal",
+    "doi": "10.1063/5.0284297",
+    "url": "https://doi.org/10.1063/5.0284297",
+    "source": "https://pubs.aip.org/aip/pof/article-abstract/37/9/093340/3363303/Phase-field-lattice-Boltzmann-method-for-two-phase"
+  },
+  {
+    "title": "Freezing dynamics of wetting droplet under a uniform electric field",
+    "authors": ["Jiangxu Huang", "Hanqing Li", "Jiaqi Che", "Zhenhua Chai", "Lei Wang", "Baochang Shi"],
+    "year": 2025,
+    "venue": "International Journal of Heat and Mass Transfer 242, 126852",
+    "type": "journal",
+    "doi": "10.1016/j.ijheatmasstransfer.2025.126852",
+    "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2025.126852",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0017931025001930"
+  },
+  {
+    "title": "Thermocapillary migration of a self-rewetting droplet on an inclined surface: A phase-field simulation",
+    "authors": ["He Yan", "Lei Wang", "Jiangxu Huang", "Yuan Yu"],
+    "year": 2025,
+    "venue": "Applied Thermal Engineering 263, 125345",
+    "type": "journal",
+    "doi": "10.1016/j.applthermaleng.2024.125345",
+    "url": "https://doi.org/10.1016/j.applthermaleng.2024.125345",
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S1359431124030138",
+    "notes": "Canonical issue year is 2025; first published online in December 2024."
+  },
+  {
+    "title": "A Thermodynamically Consistent Phase-Field Lattice Boltzmann Method for Two-Phase Electrohydrodynamic Flows",
+    "authors": ["Fang Xiong", "Lei Wang", "Jiangxu Huang", "Kang Luo"],
+    "year": 2025,
+    "venue": "Journal of Scientific Computing 103, 34",
+    "type": "journal",
+    "doi": "10.1007/s10915-025-02848-7",
+    "url": "https://doi.org/10.1007/s10915-025-02848-7",
+    "source": "https://link.springer.com/article/10.1007/s10915-025-02848-7"
+  },
+  {
+    "title": "Droplet impact behavior on a hydrophobic plate with a wettability-patterned orifice: A lattice Boltzmann study",
+    "authors": ["Juanyong Wang", "Lei Wang", "Jiangxu Huang", "Dinggen Li"],
+    "year": 2024,
+    "venue": "International Communications in Heat and Mass Transfer 159, Part C, 108249",
+    "type": "journal",
+    "doi": "10.1016/j.icheatmasstransfer.2024.108249",
+    "url": "https://doi.org/10.1016/j.icheatmasstransfer.2024.108249",
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S073519332401011X"
+  },
+  {
+    "title": "Lattice Boltzmann method with diffusive scaling for thermal flows in porous media",
+    "authors": ["Xinyue Liu", "Lei Wang", "Jiangxu Huang", "Xuguang Yang"],
+    "year": 2024,
+    "venue": "Computational Geosciences 28, 791–807",
+    "type": "journal",
+    "doi": "10.1007/s10596-023-10210-9",
+    "url": "https://doi.org/10.1007/s10596-023-10210-9",
+    "source": "https://link.springer.com/article/10.1007/s10596-023-10210-9",
+    "notes": "Canonical issue year is 2024; first published online on 16 June 2023."
+  },
+  {
+    "title": "Phase-field-based lattice Boltzmann method for containerless freezing",
+    "authors": ["Jiangxu Huang", "Lei Wang", "Zhenhua Chai", "Baochang Shi"],
+    "year": 2024,
+    "venue": "Physical Review E 110(3), 035301",
+    "type": "journal",
+    "doi": "10.1103/PhysRevE.110.035301",
+    "url": "https://doi.org/10.1103/PhysRevE.110.035301",
+    "source": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.110.035301"
+  },
+  {
+    "title": "An efficient thermal lattice Boltzmann method for simulating three-dimensional liquid–vapor phase change",
+    "authors": ["Jiangxu Huang", "Lei Wang", "Xuguang Yang"],
+    "year": 2024,
+    "venue": "Computers & Fluids 273, 106214",
+    "type": "journal",
+    "doi": "10.1016/j.compfluid.2024.106214",
+    "url": "https://doi.org/10.1016/j.compfluid.2024.106214",
+    "source": "https://www.sciencedirect.com/science/article/pii/S004579302400046X"
+  },
+  {
+    "title": "Numerical investigation of droplet impact dynamics on Janus-textured heated substrates",
+    "authors": ["Jiangxu Huang", "Lei Wang", "Junjie Hu"],
+    "year": 2023,
+    "venue": "Physics of Fluids 35(10), 107134",
+    "type": "journal",
+    "doi": "10.1063/5.0170171",
+    "url": "https://doi.org/10.1063/5.0170171",
+    "source": "https://doi.org/10.1063/5.0170171"
+  },
+  {
+    "title": "Lattice Boltzmann method for solute transport in dual-permeability media",
+    "authors": ["Jiangxu Huang", "Lei Wang", "Xinyue Liu"],
+    "year": 2023,
+    "venue": "Journal of Hydrology 619, 129339",
+    "type": "journal",
+    "doi": "10.1016/j.jhydrol.2023.129339",
+    "url": "https://doi.org/10.1016/j.jhydrol.2023.129339",
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0022169423002810"
+  },
+  {
+    "title": "Thermal lattice Boltzmann model for liquid-vapor phase change",
+    "authors": ["Lei Wang", "Jiangxu Huang", "Kun He"],
+    "year": 2022,
+    "venue": "Physical Review E 106(5), 055308",
+    "type": "journal",
+    "doi": "10.1103/PhysRevE.106.055308",
+    "url": "https://doi.org/10.1103/PhysRevE.106.055308",
+    "source": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.055308"
+  },
+  {
+    "title": "Three-dimensional study of double droplets impact on a wettability-patterned surface",
+    "authors": ["Jiangxu Huang", "Lei Wang", "Kun He"],
+    "year": 2022,
+    "venue": "Computers & Fluids 248, 105669",
+    "type": "journal",
+    "doi": "10.1016/j.compfluid.2022.105669",
+    "url": "https://doi.org/10.1016/j.compfluid.2022.105669",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0045793022002626"
+  },
+  {
+    "title": "Electrohydrodynamic Enhancement of Phase Change Material Melting in Circular-Elliptical Annuli",
+    "authors": ["Kun He", "Lei Wang", "Jiangxu Huang"],
+    "year": 2021,
+    "venue": "Energies 14(23), 8090",
+    "type": "journal",
+    "doi": "10.3390/en14238090",
+    "url": "https://doi.org/10.3390/en14238090",
+    "source": "https://www.mdpi.com/1996-1073/14/23/8090"
+  },
+  {
+    "title": "Pore-Scale Investigation on Natural Convection Melting in a Square Cavity with Gradient Porous Media",
+    "authors": ["Jiangxu Huang", "Kun He", "Lei Wang"],
+    "year": 2021,
+    "venue": "Energies 14(14), 4274",
+    "type": "journal",
+    "doi": "10.3390/en14144274",
+    "url": "https://doi.org/10.3390/en14144274",
+    "source": "https://www.mdpi.com/1996-1073/14/14/4274"
+  }
+]

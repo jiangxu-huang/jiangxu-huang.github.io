@@ -1,4 +1,20 @@
-# Academic Pages
+# Jiangxu Huang — Academic Homepage
+
+中英双语学术个人主页，采用黑、蓝、白的纯文字排版，导航为 Home、Research、Publications、News。包含研究简介、论文检索、学术动态与联系方式。维护入口见 [HOMEPAGE.md](HOMEPAGE.md)。
+
+```text
+node scripts/build-homepage.mjs
+node scripts/build-homepage.mjs --check
+node scripts/preview-homepage.mjs
+```
+
+本地预览：<http://127.0.0.1:4173>。主页内容位于 `homepage/profile.json` 和 `homepage/publications.json`，页面由原生 HTML、CSS 和 JavaScript 构建。GitHub Pages 沿用 `acadaemic` 分支根目录发布；详情参见维护文档。
+
+以下保留原 Academic Pages 模板说明。旧模板源码保留，新主页发布时已排除示例页面；下方 Ruby/Jekyll 本地运行方式适用于旧模板，当前主页只需要 Node.js。
+
+---
+
+# Academic Pages (original template)
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")

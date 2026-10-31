@@ -1,0 +1,52 @@
+{
+  "name": "Jiangxu Huang",
+  "email": "huangjx1024@126.com",
+  "github": "https://github.com/jiangxu-huang",
+  "scholar": "https://scholar.google.com/citations?user=HkEOyIwAAAAJ",
+  "researchgate": "https://www.researchgate.net/profile/Jiangxu-Huang",
+  "siteUrl": "https://jiangxu-huang.github.io",
+  "affiliation": {
+    "en": "Huazhong University of Science and Technology",
+    "zh": "华中科技大学"
+  },
+  "role": { "en": "Ph.D. student · Computational fluid dynamics", "zh": "博士研究生 · 计算流体力学" },
+  "intro": {
+    "en": "I study complex fluid flows through mathematical modeling and numerical simulation, with a focus on multiphase interfaces, phase change, and active particles.",
+    "zh": "我关注复杂流体的数学建模与数值模拟，主要研究多相界面、相变和活性颗粒的流体动力学。"
+  },
+  "biography": [
+    {
+      "en": "I am a Ph.D. student at the Center for Complex System Simulation, School of Mathematics and Statistics, Huazhong University of Science and Technology. My work uses mesoscopic numerical methods to understand complex fluid flows and interfacial phenomena.",
+      "zh": "我是华中科技大学数学与统计学院复杂系统仿真研究中心的博士研究生，主要采用介观数值方法研究复杂流体流动与界面现象。"
+    },
+    {
+      "en": "My research brings together phase-field modeling and the lattice Boltzmann method, spanning multiphase flows, solid–liquid phase change, active particles, and flow stability. I also undertake joint doctoral training at the National University of Singapore with support from the China Scholarship Council (CSC).",
+      "zh": "我的研究结合相场建模与格子 Boltzmann 方法，涉及多相流、固液相变、活性颗粒与流动稳定性。目前在国家留学基金管理委员会（CSC）支持下，赴新加坡国立大学开展联合培养。"
+    }
+  ],
+  "research": [
+    {
+      "id": "interfaces", "number": "01", "kind": "interface",
+      "title": { "en": "Multiphase & interfacial flows", "zh": "多相流与界面动力学" },
+      "description": { "en": "Phase-field descriptions of evolving interfaces, wetting, and surfactant transport in complex fluid systems.", "zh": "采用相场方法描述复杂流体中的界面演化、润湿和表面活性剂输运。" },
+      "tags": { "en": "Phase field / Wetting / Surfactants", "zh": "相场方法 / 润湿 / 表面活性剂" }
+    },
+    {
+      "id": "phase-change", "number": "02", "kind": "phase",
+      "title": { "en": "Solid–liquid phase change", "zh": "固液相变与传热" },
+      "description": { "en": "Coupled interface dynamics and heat transfer during melting and solidification in multiphase systems.", "zh": "研究多相体系熔化与凝固过程中的界面演化及其与传热的耦合。" },
+      "tags": { "en": "Melting / Solidification / Heat transfer", "zh": "熔化 / 凝固 / 传热" }
+    },
+    {
+      "id": "active-matter", "number": "03", "kind": "particle",
+      "title": { "en": "Active particles & microswimming", "zh": "活性颗粒与微游动" },
+      "description": { "en": "Numerical modeling of self-propelled particles and their hydrodynamic interactions at small scales.", "zh": "开展自驱动颗粒及其微尺度流体动力学相互作用的数值建模。" },
+      "tags": { "en": "Active matter / Hydrodynamics", "zh": "活性物质 / 流体动力学" }
+    }
+  ],
+  "publications": [],
+  "sources": [
+    "Original repository: _config.yml and _pages/about.md, commit 01d5dc63058ccf1558bc9e0eaa9a9be45850b257.",
+    "ResearchGate profile supplied by the site owner: https://www.researchgate.net/profile/Jiangxu-Huang."
+  ]
+}
