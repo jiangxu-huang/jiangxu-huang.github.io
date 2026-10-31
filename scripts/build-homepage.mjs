@@ -58,7 +58,8 @@ if (process.argv.includes('--check')) {
   await writeFile(path.join(root, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${profile.siteUrl}/sitemap.xml\n`, 'utf8');
   for (const [route, anchor] of [['about', 'home'], ['publications', 'publications']]) {
     await mkdir(path.join(root, route), { recursive: true });
-    await writeFile(path.join(root, route, 'index.html'), `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jiangxu Huang</title><link rel="canonical" href="${profile.siteUrl}/"><meta http-equiv="refresh" content="0;url=/#${anchor}"><p><a href="/#${anchor}">Continue to Jiangxu Huang’s homepage / 进入个人主页</a></p></html>\n`, 'utf8');
+    const sitePath = new URL(profile.siteUrl).pathname.replace(/\/$/, '');
+    await writeFile(path.join(root, route, 'index.html'), `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jiangxu Huang</title><link rel="canonical" href="${profile.siteUrl}/"><meta http-equiv="refresh" content="0;url=${sitePath}/#${anchor}"><p><a href="${sitePath}/#${anchor}">Continue to Jiangxu Huang’s homepage / 进入个人主页</a></p></html>\n`, 'utf8');
   }
   console.log(`Built text-only homepage with ${publications.length} publications and ${news.length} news entries.`);
 }
